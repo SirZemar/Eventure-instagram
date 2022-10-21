@@ -1,0 +1,12 @@
+#map {
+  grid-area: d;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: end;
+}
+#map img {
+  height: 85%;
+}
+#map__text {
+  font-size: 2rem;
+}/*# sourceMappingURL=map.css.map */

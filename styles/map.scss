@@ -1,0 +1,14 @@
+#map {
+    grid-area: d;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: end;
+
+    img {
+        height: 85%;
+    }
+
+    &__text {
+        font-size: 2rem;
+    }
+}

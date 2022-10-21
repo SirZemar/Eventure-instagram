@@ -1,0 +1,37 @@
+#date {
+  grid-area: c;
+  margin-left: -200px;
+  display: grid;
+  place-items: end start;
+}
+#date-container {
+  position: relative;
+  width: 80%;
+  height: 40%;
+  filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.35));
+}
+#date .date__banner {
+  background-color: forestgreen;
+  display: grid;
+  place-items: center start;
+  width: 100%;
+  height: 100%;
+}
+#date .date__banner::after {
+  content: "";
+  -webkit-clip-path: polygon(0 0, 100% 0, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 0 100%);
+  display: block;
+  position: absolute;
+  left: 100%;
+  bottom: 0;
+  width: 50px;
+  height: 100%;
+  background-color: forestgreen;
+}
+#date .date__banner__text {
+  margin: 0;
+  margin-left: 200px;
+  font-size: 3rem;
+  color: whitesmoke;
+}/*# sourceMappingURL=date.min.css.map */

@@ -1,0 +1,34 @@
+@import "boxes.scss";
+@import "date.scss";
+@import "line.scss";
+@import "map.scss";
+@import "picture.scss";
+@import "title.scss";
+
+body, p, h1, h2, h3 {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 4.2rem;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+#container {
+    box-sizing: border-box;
+    display: grid;
+    position: relative;
+    padding: 20px 100px;
+    width: 1080px;
+    height: 1080px;
+    grid-template: "a a" 20% "b b" 50% "c d" 30% / 50% 50%;
+}

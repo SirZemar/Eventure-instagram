@@ -1,0 +1,11 @@
+#picture {
+  grid-area: b;
+}
+#picture-container {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://loremflickr.com/1120/630/nature");
+  background-repeat: no-repeat;
+  background-position: cover;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}/*# sourceMappingURL=picture.css.map */

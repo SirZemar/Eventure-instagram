@@ -1,0 +1,10 @@
+#title {
+  grid-area: a;
+  display: grid;
+  place-items: center start;
+}
+
+h1 {
+  color: black;
+  line-height: 5rem;
+}/*# sourceMappingURL=title.css.map */
