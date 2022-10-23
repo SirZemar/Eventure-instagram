@@ -84,7 +84,7 @@
 
 h1 {
   color: black;
-  line-height: 5rem;
+  line-height: 130%;
 }
 
 body, p, h1, h2, h3 {
@@ -98,7 +98,7 @@ h1 {
 
 h2 {
   font-family: "Bebas Neue", cursive;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 h3 {
